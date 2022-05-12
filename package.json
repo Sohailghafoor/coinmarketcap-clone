@@ -1,0 +1,25 @@
+{
+  "name": "coinmarketcap-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "coingecko-api": "^1.0.10",
+    "next": "^12.1.7-canary.4",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6"
+  },
+  "engines":{
+    "node": "12.x"
+  }
+}
